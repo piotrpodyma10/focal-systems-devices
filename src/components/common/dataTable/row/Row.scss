@@ -1,0 +1,43 @@
+.table-row {
+  .table-cell {
+    font-weight: bold;
+
+    @media (max-width: 900px) {
+      font-size: 12px;
+    }
+  }
+
+  .status {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+  }
+
+  .works {
+    color: white;
+    border-color: var(--success);
+    color: var(--success);
+    background-color: var(--success-transparent);
+  }
+
+  .low-battery {
+    color: var(--error);
+    background-color: var(--error-transparent);
+    border-color: var(--error);
+  }
+
+  .not-enough-data {
+    border-color: var(--warning);
+    background-color: var(--warning-transparent);
+    color: var(--warning);
+  }
+
+  .status {
+    @media (max-width: 800px) {
+      padding: 0px;
+      border: none;
+      background-color: var(--dark-light);
+    }
+  }
+}
