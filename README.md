@@ -1,6 +1,8 @@
-Hello! 👋
+👋 Hello!
 
-How to run the application? 👨‍💻
+💻 Application: https://focal-systems-devices.netlify.app
+
+👨‍💻 How to run the application?
 
 Run:
 
